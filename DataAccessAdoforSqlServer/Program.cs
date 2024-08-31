@@ -86,7 +86,7 @@ namespace DataAccessAdoforSqlServer
                 //}
                 #endregion
 
-                #region DataSet,DataTable, SqlDataAdapter Kullanimi
+                #region DataSet,DataTable, SqlDataAdapter Kullanimi.
 
                 cmd.CommandText = "Select * From Shippers";
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
